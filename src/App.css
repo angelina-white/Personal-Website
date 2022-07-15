@@ -1,38 +1,23 @@
-.App {
-  text-align: center;
+#homeImage {
+    height: 720px;
+    width: 1440px;
+    position: absolute;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#homeElements {
+    position: absolute;
+    color: #FFF9F7;
+    margin-top: 400px;
+    margin-left: 100px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#homeTitle {
+    font-size: 120px;
+    font-family: "Snell Roundhand";
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#homeArrow {
+    margin-left: 325px;
+    margin-top: -70px;
+    font-size: 30px;
 }

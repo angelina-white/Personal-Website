@@ -10,6 +10,7 @@ function Home()
         gsap.from("#homeImage", {duration: .5, opacity: 0});
         gsap.from("#nameBackground", {delay: .25, duration: 1.5, opacity: 0});
         gsap.from("#homeTitle", {delay: .5, duration: 1.5, opacity: 0});
+        gsap.from("#homeTitle2", {delay: .55, duration: 1.5, opacity: 0});
         gsap.from("#homeArrow", {delay: .75, duration: 1, opacity: 0, y: -25});
     }, [])
 
@@ -27,6 +28,7 @@ function Home()
                 </div>
                 <div id="nameContainer">
                     <h1 id="homeTitle">Angelina White</h1>
+                    <h2 id="homeTitle2">Software Developer</h2>
                 </div>
                 <p id="homeArrow" onClick={ handleClickArrow }><AiOutlineArrowDown /></p>
             </div>

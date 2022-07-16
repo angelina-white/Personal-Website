@@ -91,7 +91,7 @@ function Projects()
                 <div id="proj2Back"></div>
                 <div id="proj2">
                     <img src={ construction } className="constructionPhoto" />
-                    <h2 className="projHeader">Job Application Tracker</h2>
+                    <h2 className="projHeader">Shop We All</h2>
                     <h3 className="projDes">Description:</h3>
                     <p className="projDescription">Description goes here...</p>
                     <h3 className="projLang">Languages:</h3>
@@ -102,7 +102,7 @@ function Projects()
                 <div id="proj3Back"></div>
                 <div id="proj3">
                     <img src={ construction } className="constructionPhoto" />
-                    <h2 className="projHeader">Job Application Tracker</h2>
+                    <h2 className="projHeader">Travel Planner</h2>
                     <h3 className="projDes">Description:</h3>
                     <p className="projDescription">Description goes here...</p>
                     <h3 className="projLang">Languages:</h3>

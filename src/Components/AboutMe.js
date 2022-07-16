@@ -1,5 +1,6 @@
 function AboutMe()
 {
+
     return (
         <div id="aboutMeContainer">
             <div id="aboutBackground"></div>

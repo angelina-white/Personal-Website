@@ -70,9 +70,99 @@
 
 /* projects */
 #projectsContainer {
-    height: 100vh;
+    height: 161vh;
     width: 1440px;
-    text-align: center;
+}
+#projectTitle {
+    margin-top: 50px;
+    margin-left: 650px;
+}
+
+#projects {
+    margin-left: 275px;
+    position: absolute;
+}
+
+#proj1Back {
+    height: 300px;
+    width: 900px;
+    background-color: #BF8E84;
+    margin-top: 50px;
+    border-radius: 8px;
+    opacity: .25;
+}
+
+#proj2Back {
+    height: 300px;
+    width: 900px;
+    background-color: #BF8E84;
+    margin-top: 50px;
+    border-radius: 8px;
+    opacity: .50;
+}
+
+#proj3Back {
+    height: 300px;
+    width: 900px;
+    background-color: #BF8E84;
+    margin-top: 50px;
+    border-radius: 8px;
+    opacity: .75;
+}
+
+.constructionPhoto {
+    height: 250px;
+    width: 350px;
+    position: absolute;
+    margin-top: -275px;
+    margin-left: 25px;
+}
+
+.projHeader {
+    position: absolute;
+    margin-top: -275px;
+    margin-left: 425px;
+    color: #401F19;
+}
+
+.projDes {
+    position: absolute;
+    margin-top: -230px;
+    margin-left: 425px;
+    color: #401F19;
+}
+
+.projDescription {
+    position: absolute;
+    margin-top: -200px;
+    margin-left: 425px;
+    color: #401F19;
+}
+
+.projLang {
+    position: absolute;
+    margin-top: -120px;
+    margin-left: 425px;
+    color: #401F19;
+}
+
+.projLanguages {
+    position: absolute;
+    margin-top: -85px;
+    margin-left: 425px;
+    color: #401F19;
+}
+
+.projLinks {
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 425px;
+    color: #401F19;
+    font-size: 20px;
+}
+
+.projLinks:hover {
+    color: #386D73;
 }
 
 /* about me */
@@ -105,6 +195,13 @@
     margin-left: 265px;
     border-radius: 8px;
     opacity: .5;
+}
+
+#aboutDesc {
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 275px;
+    color: #223025;
 }
 
 /* contact */

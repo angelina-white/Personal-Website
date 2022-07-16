@@ -10,6 +10,7 @@
     top: 0;
     background-color: #FFEADD;
     opacity: .95;
+    z-index: 1;
 }
 
 #navHeader {

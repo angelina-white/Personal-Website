@@ -7,6 +7,7 @@ function Home()
 {
     useEffect(() =>
     {
+        gsap.from("#nameBackground", {duration: 1, opacity: 0});
         gsap.from("#homeTitle", {duration: 1, opacity: 0});
         gsap.from("#homeArrow", {duration: 1, opacity: 0, y: -25});
     }, [])
@@ -18,10 +19,14 @@ function Home()
     }
 
     return (
-        <div>
+        <div id="homeContainer">
             <img src={ homeImage } id="homeImage"/>
             <div id="homeElements">
-                <h1 id="homeTitle">Angelina White</h1>
+                <div id="nameBackground">
+                </div>
+                <div id="nameContainer">
+                    <h1 id="homeTitle">Angelina White</h1>
+                </div>
                 <p id="homeArrow" onClick={ handleClickArrow }><AiOutlineArrowDown /></p>
             </div>
         </div>

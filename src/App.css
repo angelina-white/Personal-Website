@@ -1,23 +1,89 @@
+.header {
+    color: #BF8E84;
+    margin-top: 25px;
+}
+
+/* navbar */
+#navbar {
+    position: sticky;
+    top: 0;
+    background-color: #FFEADD;
+    opacity: .85;
+}
+
+#navHeader {
+    color: #947248;
+}
+
+#navLinks {
+    color: #8C7354;
+}
+
+/* home */
+#homeContainer {
+    height: 100vh;
+    width: 1440px;
+}
+
 #homeImage {
-    height: 720px;
+    height: 100vh;
     width: 1440px;
     position: absolute;
 }
 
 #homeElements {
     position: absolute;
-    color: #FFF9F7;
-    margin-top: 400px;
-    margin-left: 100px;
+    color: white;
+    margin-top: 500px;
+    margin-left: 85px;
+}
+
+#nameBackground {
+    background-color: #FFEADD;
+    width: 800px;
+    height: 125px;
+    border-radius: 175px;
+    opacity: .80;
+    position: absolute;
+}
+
+#nameContainer {
+    width: 850px;
+    margin-top: -5px;
+    padding-left: 70px;
 }
 
 #homeTitle {
-    font-size: 120px;
+    font-size: 100px;
     font-family: "Snell Roundhand";
+    position: absolute;
+    font-weight: bold;
 }
 
 #homeArrow {
-    margin-left: 325px;
-    margin-top: -70px;
+    margin-left: 400px;
+    margin-top: 150px;
     font-size: 30px;
+}
+
+
+/* projects */
+#projectsContainer {
+    height: 100vh;
+    width: 1440px;
+    text-align: center;
+}
+
+/* about me */
+#aboutMeContainer {
+    height: 100vh;
+    width: 1440px;
+    text-align: center;
+}
+
+/* contact */
+#contactContainer {
+    height: 100vh;
+    width: 1440px;
+    text-align: center;
 }

@@ -1,8 +1,15 @@
+import contactImage from '../contactImage.jpg';
+
 function Contact()
 {
     return (
         <div id="contactContainer">
-            <h1 className="header">Contact</h1>
+            <img src={ contactImage } id="contactImage"/>
+            <div id="contactBackground"></div>
+            <div id="contactPrompt">
+                <h1 id="contactHeader">Contact:</h1>
+                <a href="" id="contactEmail">Send email</a>
+            </div>
         </div>
     )
 }

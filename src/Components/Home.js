@@ -7,9 +7,9 @@ function Home()
 {
     useEffect(() =>
     {
-        gsap.from("#nameBackground", {duration: 1, opacity: 0});
-        gsap.from("#homeTitle", {duration: 1, opacity: 0});
-        gsap.from("#homeArrow", {duration: 1, opacity: 0, y: -25});
+        gsap.from("#nameBackground", {duration: 1.5, opacity: 0});
+        gsap.from("#homeTitle", {duration: 1.5, opacity: 0});
+        gsap.from("#homeArrow", {duration: 1.5, opacity: 0, y: -25});
     }, [])
 
     //scrolls to lower page which will be projects

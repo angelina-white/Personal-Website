@@ -7,9 +7,10 @@ function Home()
 {
     useEffect(() =>
     {
-        gsap.from("#nameBackground", {duration: 1.5, opacity: 0});
-        gsap.from("#homeTitle", {duration: 1.5, opacity: 0});
-        gsap.from("#homeArrow", {duration: 1.5, opacity: 0, y: -25});
+        gsap.from("#homeImage", {duration: .5, opacity: 0});
+        gsap.from("#nameBackground", {delay: .25, duration: 1.5, opacity: 0});
+        gsap.from("#homeTitle", {delay: .5, duration: 1.5, opacity: 0});
+        gsap.from("#homeArrow", {delay: .75, duration: 1, opacity: 0, y: -25});
     }, [])
 
     //scrolls to lower page which will be projects

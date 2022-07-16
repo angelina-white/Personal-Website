@@ -2,7 +2,9 @@ function AboutMe()
 {
     return (
         <div id="aboutMeContainer">
-            <h1 className="header">About Me</h1>
+            <div id="aboutBackground"></div>
+            <div id="aboutInfoBack"></div>
+            <h1 className="header" id="aboutTitle">About Me</h1>
         </div>
     )
 }

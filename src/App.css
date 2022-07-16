@@ -1,6 +1,7 @@
 .header {
     color: #BF8E84;
     margin-top: 25px;
+    font-size: 50px;
 }
 
 /* navbar */
@@ -78,7 +79,32 @@
 #aboutMeContainer {
     height: 100vh;
     width: 1440px;
-    text-align: center;
+}
+
+#aboutBackground {
+    height: 100vh;
+    width: 1440px;
+    background-color: #92A4A6;
+    position: absolute;
+}
+
+#aboutTitle {
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 125px;
+    color: #465759;
+    font-size: 50px;
+}
+
+#aboutInfoBack {
+    background-color: #465759;
+    position: absolute;
+    height: 400px;
+    width: 900px;
+    margin-top: 250px;
+    margin-left: 265px;
+    border-radius: 8px;
+    opacity: .5;
 }
 
 /* contact */
@@ -97,7 +123,7 @@
     position: absolute;
     background-color: #BF8B4B;
     height: 150px;
-    width: 800px;
+    width: 775px;
     margin-top: 480px;
     margin-left: 325px;
     border-radius: 8px;
@@ -106,7 +132,6 @@
 
 #contactPrompt {
     position: absolute;
-    font-size: 75px;
     margin-left: 375px;
     margin-top: 500px;
     color: white;
@@ -115,16 +140,18 @@
 
 #contactHeader {
     float: left;
-    font-size: 75px;
+    font-size: 50px;
     margin-right: 35px;
     margin-top: 10px;
     font-weight: bold;
+    padding-top: 15px;
+    padding-left: 125px;
 }
 
 #contactEmail {
     float: left;
     color: #A65005;
-    font-size: 75px;
+    font-size: 50px;
     font-weight: bold;
-    
+    padding-top: 15px;
 }

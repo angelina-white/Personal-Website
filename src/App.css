@@ -148,21 +148,21 @@
 
 #proj1 {
     height: 475px;
-    width: 1340px;
+    width: 1300px;
     position: absolute;
     margin-top: -474px;
 }
 
 #proj2 {
     height: 475px;
-    width: 1340px;
+    width: 1300px;
     position: absolute;
     margin-top: -474px;
 }
 
 #proj3 {
     height: 475px;
-    width: 1340px;
+    width: 1300px;
     position: absolute;
     margin-top: -474px;
 }
@@ -177,13 +177,13 @@
 
 #carPhoto {
     height: 425px;
-    width: 750px;
+    width: 775px;
     border-radius: 8px;
 }
 
 .constructionPhoto {
     height: 425px;
-    width: 750px;
+    width: 775px;
     position: absolute;
     margin-top: 25px;
     margin-left: 25px;
@@ -225,9 +225,16 @@
     color: #401F19;
 }
 
+#projLang2 {
+    position: absolute;
+    margin-top: 340px;
+    margin-left: 830px;
+    color: #401F19;
+}
+
 #projLangCon {
     position: absolute;
-    margin-top: 350px;
+    margin-top: 310px;
     margin-left: 825px;
     color: #401F19;
 }
@@ -249,7 +256,7 @@
 .gitLinks {
     position: absolute;
     margin-top: -35px;
-    margin-left: 930px;
+    margin-left: 915px;
     color: #401F19;
     font-size: 20px;
     text-decoration: underline;
@@ -268,7 +275,7 @@
 }
 
 #proj2Git2 {
-    margin-left: 1035px;
+    margin-left: 1015px;
     position: absolute;
     margin-top: 420px;
 }

@@ -3,6 +3,7 @@ import p11 from '../images/p11.png';
 import p12 from '../images/p12.png';
 import p13 from '../images/p13.png';
 import p14 from '../images/p14.png';
+import p15 from '../images/p15.png';
 import p21 from '../images/p21.png';
 import Carousel from 'react-bootstrap/Carousel';
 import { useEffect } from "react";
@@ -140,10 +141,18 @@ function Projects()
                             alt="Third slide"
                             />
                         </Carousel.Item>
+                        <Carousel.Item>
+                            <img
+                            className="d-block w-100"
+                            id="carPhoto"
+                            src={ p15 }
+                            alt="Third slide"
+                            />
+                        </Carousel.Item>
                     </Carousel>
                     <h2 className="projHeader">Job Application Tracker</h2>
-                    <h5 className="projDescription">Description goes here...</h5>
-                    <p className="projLang">Ruby on Rails, React, ActiveRecord, BCrypt, Javascript, CSS</p>
+                    <p className="projDescription">Track your job applications, interviews, and offers. Add, edit, and delete jobs you applied for. Add interviews and offers to selected jobs. View calendar to see when interviews are. Compare offers. Check the stats for how many applications you applied for and how many of each application status there is.</p>
+                    <h5 className="projLang">Ruby on Rails, React, ActiveRecord, BCrypt, Javascript, CSS</h5>
                     <p onClick={ openProj1 } className="projLinks">Demo</p>
                     <p onClick={ openProj1Git } className="gitLinks">GitHub</p>
                 </div>
@@ -152,8 +161,8 @@ function Projects()
                 <div id="proj2">
                     <img src={ p21 } alt="contructionPhoto3" className="constructionPhoto" />
                     <h2 id="projHeaderCon">Group Shopping List</h2>
-                    <h5 id="projDescriptionCon">Description goes here...</h5>
-                    <p id="projLangCon">Ruby, React, Sinatra, ActiveRecord, Javascript, CSS</p>
+                    <p id="projDescriptionCon">A shopping list for multiple people that shows how much of each item a person is getting and how much it will cost. Can be used when one person in the group has a membership like with Costco. Great for roommates, work, parties, and other communities.</p>
+                    <h5 id="projLang2">Ruby, React, Sinatra, ActiveRecord, Javascript, CSS</h5>
                     <p onClick={ openProj2Front } className="gitLinks" id="proj2Git" >GitHub - Frontend</p>
                     <p onClick={ openProj2Back } className="gitLinks" id="proj2Git2" >GitHub - Backend</p>
                 </div>
@@ -162,8 +171,8 @@ function Projects()
                 <div id="proj3">
                     <img src={ construction } alt="contructionPhoto3" className="constructionPhoto" />
                     <h2 id="projHeaderCon">Travel Planner</h2>
-                    <h5 id="projDescriptionCon">Currently working on...</h5>
-                    <p id="projLangCon">Ruby on Rails, React, ActiveRecord, BCrypt, Javascript, CSS</p>
+                    <p id="projDescriptionCon">Currently working on...</p>
+                    <h5 id="projLangCon">Ruby on Rails, React, ActiveRecord, BCrypt, Javascript, CSS</h5>
                     <p id="comingSoon">Demo coming soon</p>
                 </div>
             </div>

@@ -26,8 +26,7 @@ function Contact()
             <div id="contactBackground"></div>
             <div id="contactPrompt">
                 <h1 id="contactHeader">Contact:</h1>
-                {/* <a href="" id="contactEmail">LinkedIn</a> */}
-                <p id="contactEmail">LinkedIn</p>
+                <a href="https://www.linkedin.com/in/angelinawhite/" id="contactEmail">LinkedIn</a>
             </div>
         </div>
     )

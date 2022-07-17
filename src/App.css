@@ -19,6 +19,33 @@
 
 #navLinks {
     color: #8C7354;
+    width: 90px;
+}
+
+#projectNav {
+    color: #8C7354;
+    width: 90px;
+    margin-left: 10px;
+}
+
+#nav {
+    height: 40px;
+}
+
+#linkedIcon {
+    margin-left: 760px;
+    font-size: 35px;
+    margin-top: -18px;
+}
+
+#gitIcon {
+    font-size: 35px;
+    margin-top: -18px;
+}
+
+#devIcon {
+    font-size: 35px;
+    margin-top: -18px;
 }
 
 /* home */
@@ -281,4 +308,8 @@
     font-size: 50px;
     font-weight: bold;
     padding-top: 15px;
+}
+
+#contactEmail:hover {
+    color: #004A59;
 }

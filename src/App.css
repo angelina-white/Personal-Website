@@ -104,6 +104,12 @@
     font-size: 30px;
 }
 
+#homeArrow:hover {
+    font-size: 35px;
+    margin-left: 397.5px;
+    margin-top: 195.5px;
+}
+
 
 /* projects */
 #projectsContainer {

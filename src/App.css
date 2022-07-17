@@ -298,6 +298,7 @@
 #aboutMeContainer {
     height: 100vh;
     width: 1440px;
+    font-family: "Monaco";
 }
 
 #aboutBackground {
@@ -318,10 +319,10 @@
 #aboutInfoBack {
     background-color: #465759;
     position: absolute;
-    height: 400px;
-    width: 900px;
+    height: 415px;
+    width: 1200px;
     margin-top: 250px;
-    margin-left: 265px;
+    margin-left: 120px;
     border-radius: 8px;
     opacity: .5;
 }
@@ -331,20 +332,22 @@
     height: 400px;
     width: 1125px;
     padding-top:15px;
-    padding-left: 10px;
+    margin-top: 275px;
+    margin-left: 163px;
 }
 
 #aboutDescIntro {
     position: absolute;
-    margin-left: 300px;
-    margin-top: 275px;
+    /* margin-left: 300px;
+    margin-top: 275px; */
     color: #E1E9ED;
 }
 
 #aboutDesc {
     position: absolute;
-    margin-left: 300px;
-    margin-top: 325px;
+    /* margin-left: 300px;
+    margin-top: 340px; */
+    margin-top: 75px;
     color: #E1E9ED;
 }
 

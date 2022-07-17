@@ -41,6 +41,21 @@ function App() {
     });
   }
 
+  const openLinked = () => 
+  {
+      window.open("https://www.linkedin.com/in/angelinawhite/");
+  };
+
+  const openGit = () => 
+  {
+      window.open("https://github.com/angelina-white");
+  };
+
+  const openBlog = () => 
+  {
+      window.open("https://dev.to/angelinawhite");
+  };
+
   return (
     <div className="App">
       <Home />
@@ -53,9 +68,9 @@ function App() {
                       <Nav.Link href="#link" onClick={ handleScrollProjects } id="projectNav">Projects</Nav.Link>
                       <Nav.Link href="#link" onClick={ handleScrollAbout } id="navLinks">About Me</Nav.Link>
                       <Nav.Link href="#link" onClick={ handleScrollContact } id="navLinks">Contact</Nav.Link>
-                      <Nav.Link href="https://www.linkedin.com/in/angelinawhite/" id="linkedIcon"><FaLinkedin /></Nav.Link>
-                      <Nav.Link href="https://github.com/angelina-white" id="gitIcon"><AiFillGithub /></Nav.Link>
-                      <Nav.Link href="https://dev.to/angelinawhite" id="devIcon"><FaDev /></Nav.Link>
+                      <Nav.Link onClick={ openLinked } id="linkedIcon"><FaLinkedin /></Nav.Link>
+                      <Nav.Link onClick={ openGit } id="gitIcon"><AiFillGithub /></Nav.Link>
+                      <Nav.Link onClick={ openBlog } id="devIcon"><FaDev /></Nav.Link>
                   </Nav>
               </Navbar.Collapse>
           </Container>

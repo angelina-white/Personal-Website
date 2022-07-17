@@ -182,30 +182,16 @@
     color: #401F19;
 }
 
-.projDes {
-    position: absolute;
-    margin-top: 60px;
-    margin-left: 425px;
-    color: #401F19;
-}
-
 .projDescription {
     position: absolute;
-    margin-top: 90px;
+    margin-top: 75px;
     margin-left: 425px;
     color: #401F19;
 }
 
 .projLang {
     position: absolute;
-    margin-top: 175px;
-    margin-left: 425px;
-    color: #401F19;
-}
-
-.projLanguages {
-    position: absolute;
-    margin-top: 210px;
+    margin-top: 215px;
     margin-left: 425px;
     color: #401F19;
 }
@@ -216,10 +202,43 @@
     margin-left: 425px;
     color: #401F19;
     font-size: 20px;
+    text-decoration: underline;
 }
 
 .projLinks:hover {
     color: #386D73;
+    cursor: pointer;
+}
+
+.gitLinks {
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 500px;
+    color: #401F19;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.gitLinks:hover {
+    color: #386D73;
+    cursor: pointer;
+}
+
+#proj2Git {
+    margin-left: 425px;
+}
+
+#proj2Git2 {
+    margin-left: 605px;
+}
+
+#comingSoon{
+    text-decoration: none;
+}
+
+#comingSoon:hover {
+    cursor: default;
+    color: #401F19;
 }
 
 /* about me */
@@ -308,8 +327,10 @@
     font-size: 50px;
     font-weight: bold;
     padding-top: 15px;
+    text-decoration: underline;
 }
 
 #contactEmail:hover {
     color: #004A59;
+    cursor: pointer;
 }

@@ -73,6 +73,27 @@ function Projects()
 
     }, [])
 
+
+    const openProj1 = () => 
+    {
+        window.open("https://job-app-tracking.herokuapp.com");
+    };
+
+    const openProj1Git = () => 
+    {
+        window.open("https://github.com/angelina-white/Job-App-Tracker-Demo");
+    };
+
+    const openProj2Front = () => 
+    {
+        window.open("https://github.com/angelina-white/Group-Shopping-List-Frontend");
+    };
+
+    const openProj2Back = () => 
+    {
+        window.open("https://github.com/angelina-white/Group-Shopping-List-Backend");
+    };
+
     return (
         <div id="projectsContainer">
             <h1 className="header" id="projectTitle">Projects</h1>
@@ -81,36 +102,30 @@ function Projects()
                 <div id="proj1">
                     <img src={ construction } alt="contructionPhoto" className="constructionPhoto" />
                     <h2 className="projHeader">Job Application Tracker</h2>
-                    <h3 className="projDes">Description:</h3>
-                    <p className="projDescription">Description goes here...</p>
-                    <h3 className="projLang">Languages:</h3>
-                    <p className="projLanguages">Languages goes here...</p>
-                    {/* <a href="" className="projLinks">Demo</a> */}
-                    <p className="projLinks">Demo</p>
+                    <h5 className="projDescription">Description goes here...</h5>
+                    <p className="projLang">Ruby on Rails, React, ActiveRecord, BCrypt, Javascript, CSS</p>
+                    <p onClick={ openProj1 } className="projLinks">Demo</p>
+                    <p onClick={ openProj1Git } className="gitLinks">GitHub</p>
                 </div>
 
                 <div id="proj2Back"></div>
                 <div id="proj2">
                     <img src={ construction } alt="contructionPhoto2" className="constructionPhoto" />
-                    <h2 className="projHeader">Shop We All</h2>
-                    <h3 className="projDes">Description:</h3>
-                    <p className="projDescription">Description goes here...</p>
-                    <h3 className="projLang">Languages:</h3>
-                    <p className="projLanguages">Languages goes here...</p>
-                    {/* <a href="" className="projLinks">Demo</a> */}
-                    <p className="projLinks">Demo</p>
+                    <h2 className="projHeader">Group Shopping List</h2>
+                    <h5 className="projDescription">Description goes here...</h5>
+                    <p className="projLang">Ruby, React, Sinatra, ActiveRecord, Javascript, CSS</p>
+                    <p onClick={ openProj2Front } className="gitLinks" id="proj2Git" >GitHub - Frontend</p>
+                    <p onClick={ openProj2Back } className="gitLinks" id="proj2Git2" >GitHub - Backend</p>
                 </div>
 
                 <div id="proj3Back"></div>
                 <div id="proj3">
                     <img src={ construction } alt="contructionPhoto3" className="constructionPhoto" />
                     <h2 className="projHeader">Travel Planner</h2>
-                    <h3 className="projDes">Description:</h3>
-                    <p className="projDescription">Description goes here...</p>
-                    <h3 className="projLang">Languages:</h3>
-                    <p className="projLanguages">Languages goes here...</p>
+                    <h5 className="projDescription">Currently working on...</h5>
+                    <p className="projLang">Ruby on Rails, React, ActiveRecord, BCrypt, Javascript, CSS</p>
                     {/* <a href="" className="projLinks">Demo</a> */}
-                    <p className="projLinks">Demo</p>
+                    <p className="projLinks" id="comingSoon">Demo coming soon</p>
                 </div>
             </div>
         </div>

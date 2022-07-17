@@ -20,13 +20,18 @@ function Contact()
         })
     },[])
 
+    const openContact = () => 
+    {
+        window.open("https://www.linkedin.com/in/angelinawhite/");
+    };
+
     return (
         <div id="contactContainer">
             <img src={ contactImage } alt="contactImage" id="contactImage"/>
             <div id="contactBackground"></div>
             <div id="contactPrompt">
                 <h1 id="contactHeader">Contact:</h1>
-                <a href="https://www.linkedin.com/in/angelinawhite/" id="contactEmail">LinkedIn</a>
+                <p onClick={ openContact } id="contactEmail">LinkedIn</p>
             </div>
         </div>
     )

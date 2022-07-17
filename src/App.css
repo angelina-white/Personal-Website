@@ -94,7 +94,7 @@
     position: absolute;
     font-weight: bold;
     margin-top: 125px;
-    margin-left: 50px;
+    margin-left: 25px;
 }
 
 #homeArrow {
@@ -325,10 +325,25 @@
     opacity: .5;
 }
 
-#aboutDesc {
+#aboutTextCont {
+    position: absolute;
+    height: 400px;
+    width: 1125px;
+    padding-top:15px;
+    padding-left: 10px;
+}
+
+#aboutDescIntro {
     position: absolute;
     margin-left: 300px;
     margin-top: 275px;
+    color: #E1E9ED;
+}
+
+#aboutDesc {
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 325px;
     color: #E1E9ED;
 }
 

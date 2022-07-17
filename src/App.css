@@ -167,6 +167,19 @@
     margin-top: -300px;
 }
 
+.carousel {
+    height: 250px;
+    width: 350px;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 25px; 
+}
+
+#carPhoto {
+    height: 250px;
+    width: 350px;
+}
+
 .constructionPhoto {
     height: 250px;
     width: 350px;
@@ -177,6 +190,13 @@
 
 .projHeader {
     position: absolute;
+    margin-top: -255px;
+    margin-left: 425px;
+    color: #401F19;
+}
+
+#projHeaderCon {
+    position: absolute;
     margin-top: 20px;
     margin-left: 425px;
     color: #401F19;
@@ -184,21 +204,35 @@
 
 .projDescription {
     position: absolute;
-    margin-top: 75px;
+    margin-top: -200px;
+    margin-left: 425px;
+    color: #401F19;
+}
+
+#projDescriptionCon {
+    position: absolute;
+    margin-top: 70px;
     margin-left: 425px;
     color: #401F19;
 }
 
 .projLang {
     position: absolute;
-    margin-top: 215px;
+    margin-top: -65px;
+    margin-left: 425px;
+    color: #401F19;
+}
+
+#projLangCon {
+    position: absolute;
+    margin-top: 205px;
     margin-left: 425px;
     color: #401F19;
 }
 
 .projLinks {
     position: absolute;
-    margin-top: 250px;
+    margin-top: -25px;
     margin-left: 425px;
     color: #401F19;
     font-size: 20px;
@@ -212,7 +246,7 @@
 
 .gitLinks {
     position: absolute;
-    margin-top: 250px;
+    margin-top: -25px;
     margin-left: 500px;
     color: #401F19;
     font-size: 20px;
@@ -234,6 +268,10 @@
 
 #comingSoon{
     text-decoration: none;
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 425px;
+    color: #401F19;
 }
 
 #comingSoon:hover {

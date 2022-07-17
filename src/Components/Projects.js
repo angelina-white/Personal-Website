@@ -1,8 +1,10 @@
 import construction from '../construction.jpg';
+import Carousel from 'react-bootstrap/Carousel';
 import { useEffect } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
+
 
 function Projects()
 {
@@ -100,7 +102,32 @@ function Projects()
             <div id="projects">
                 <div id="proj1Back"></div>
                 <div id="proj1">
-                    <img src={ construction } alt="contructionPhoto" className="constructionPhoto" />
+                    <Carousel fade className="carousel">
+                        <Carousel.Item>
+                            <img
+                            className="d-block w-100"
+                            id="carPhoto"
+                            src={ construction }
+                            alt="First slide"
+                            />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img
+                            className="d-block w-100"
+                            id="carPhoto"
+                            src={ construction }
+                            alt="Second slide"
+                            />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img
+                            className="d-block w-100"
+                            id="carPhoto"
+                            src={ construction }
+                            alt="Third slide"
+                            />
+                        </Carousel.Item>
+                    </Carousel>
                     <h2 className="projHeader">Job Application Tracker</h2>
                     <h5 className="projDescription">Description goes here...</h5>
                     <p className="projLang">Ruby on Rails, React, ActiveRecord, BCrypt, Javascript, CSS</p>
@@ -110,7 +137,32 @@ function Projects()
 
                 <div id="proj2Back"></div>
                 <div id="proj2">
-                    <img src={ construction } alt="contructionPhoto2" className="constructionPhoto" />
+                    <Carousel fade className="carousel">
+                        <Carousel.Item>
+                            <img
+                            className="d-block w-100"
+                            id="carPhoto"
+                            src={ construction }
+                            alt="First slide"
+                            />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img
+                            className="d-block w-100"
+                            id="carPhoto"
+                            src={ construction }
+                            alt="Second slide"
+                            />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img
+                            className="d-block w-100"
+                            id="carPhoto"
+                            src={ construction }
+                            alt="Third slide"
+                            />
+                        </Carousel.Item>
+                    </Carousel>
                     <h2 className="projHeader">Group Shopping List</h2>
                     <h5 className="projDescription">Description goes here...</h5>
                     <p className="projLang">Ruby, React, Sinatra, ActiveRecord, Javascript, CSS</p>
@@ -121,11 +173,10 @@ function Projects()
                 <div id="proj3Back"></div>
                 <div id="proj3">
                     <img src={ construction } alt="contructionPhoto3" className="constructionPhoto" />
-                    <h2 className="projHeader">Travel Planner</h2>
-                    <h5 className="projDescription">Currently working on...</h5>
-                    <p className="projLang">Ruby on Rails, React, ActiveRecord, BCrypt, Javascript, CSS</p>
-                    {/* <a href="" className="projLinks">Demo</a> */}
-                    <p className="projLinks" id="comingSoon">Demo coming soon</p>
+                    <h2 id="projHeaderCon">Travel Planner</h2>
+                    <h5 id="projDescriptionCon">Currently working on...</h5>
+                    <p id="projLangCon">Ruby on Rails, React, ActiveRecord, BCrypt, Javascript, CSS</p>
+                    <p id="comingSoon">Demo coming soon</p>
                 </div>
             </div>
         </div>

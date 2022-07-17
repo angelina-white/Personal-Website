@@ -21,7 +21,7 @@ function Projects()
             {
                trigger: "#proj1Back",
                start: "top 725px",
-               end: "bottom 550px",
+               end: "bottom 900px",
                scrub: true,
             }, x: -200, opacity: 0
         })
@@ -31,7 +31,7 @@ function Projects()
             {
                trigger: "#proj1",
                start: "top 725px",
-               end: "bottom 550px",
+               end: "bottom 900px",
                scrub: true,
             }, x: -200, opacity: 0
         })
@@ -42,7 +42,7 @@ function Projects()
             {
                trigger: "#proj2Back",
                start: "top 725px",
-               end: "bottom 550px",
+               end: "bottom 900px",
                scrub: true,
             }, x: -200, opacity: 0
         })
@@ -52,7 +52,7 @@ function Projects()
             {
                trigger: "#proj2",
                start: "top 725px",
-               end: "bottom 550px",
+               end: "bottom 900px",
                scrub: true,
             }, x: -200, opacity: 0
         })
@@ -63,7 +63,7 @@ function Projects()
             {
                trigger: "#proj3Back",
                start: "top 725px",
-               end: "bottom 550px",
+               end: "bottom 900px",
                scrub: true,
             }, x: -200, opacity: 0
         })
@@ -73,7 +73,7 @@ function Projects()
             {
                trigger: "#proj3",
                start: "top 725px",
-               end: "bottom 550px",
+               end: "bottom 900px",
                scrub: true,
             }, x: -200, opacity: 0
         })

@@ -13,8 +13,8 @@ function Contact()
             scrollTrigger:
             {
                trigger: "#contactContainer",
-               start: "top 400px",
-               end: "bottom 800px",
+               start: "top 300px",
+               end: "bottom 700px",
                scrub: true,
             }, opacity: 0, y: 50
         })

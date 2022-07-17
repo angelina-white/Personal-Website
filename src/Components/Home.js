@@ -22,7 +22,7 @@ function Home()
 
     return (
         <div id="homeContainer">
-            <img src={ homeImage } id="homeImage"/>
+            <img src={ homeImage } alt="homeImage" id="homeImage"/>
             <div id="homeElements">
                 <div id="nameBackground">
                 </div>

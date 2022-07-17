@@ -79,35 +79,38 @@ function Projects()
             <div id="projects">
                 <div id="proj1Back"></div>
                 <div id="proj1">
-                    <img src={ construction } className="constructionPhoto" />
+                    <img src={ construction } alt="contructionPhoto" className="constructionPhoto" />
                     <h2 className="projHeader">Job Application Tracker</h2>
                     <h3 className="projDes">Description:</h3>
                     <p className="projDescription">Description goes here...</p>
                     <h3 className="projLang">Languages:</h3>
                     <p className="projLanguages">Languages goes here...</p>
-                    <a href="" className="projLinks">Demo</a>
+                    {/* <a href="" className="projLinks">Demo</a> */}
+                    <p className="projLinks">Demo</p>
                 </div>
 
                 <div id="proj2Back"></div>
                 <div id="proj2">
-                    <img src={ construction } className="constructionPhoto" />
+                    <img src={ construction } alt="contructionPhoto2" className="constructionPhoto" />
                     <h2 className="projHeader">Shop We All</h2>
                     <h3 className="projDes">Description:</h3>
                     <p className="projDescription">Description goes here...</p>
                     <h3 className="projLang">Languages:</h3>
                     <p className="projLanguages">Languages goes here...</p>
-                    <a href="" className="projLinks">Demo</a>
+                    {/* <a href="" className="projLinks">Demo</a> */}
+                    <p className="projLinks">Demo</p>
                 </div>
 
                 <div id="proj3Back"></div>
                 <div id="proj3">
-                    <img src={ construction } className="constructionPhoto" />
+                    <img src={ construction } alt="contructionPhoto3" className="constructionPhoto" />
                     <h2 className="projHeader">Travel Planner</h2>
                     <h3 className="projDes">Description:</h3>
                     <p className="projDescription">Description goes here...</p>
                     <h3 className="projLang">Languages:</h3>
                     <p className="projLanguages">Languages goes here...</p>
-                    <a href="" className="projLinks">Demo</a>
+                    {/* <a href="" className="projLinks">Demo</a> */}
+                    <p className="projLinks">Demo</p>
                 </div>
             </div>
         </div>

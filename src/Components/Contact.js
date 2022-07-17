@@ -22,11 +22,12 @@ function Contact()
 
     return (
         <div id="contactContainer">
-            <img src={ contactImage } id="contactImage"/>
+            <img src={ contactImage } alt="contactImage" id="contactImage"/>
             <div id="contactBackground"></div>
             <div id="contactPrompt">
                 <h1 id="contactHeader">Contact:</h1>
-                <a href="" id="contactEmail">LinkedIn</a>
+                {/* <a href="" id="contactEmail">LinkedIn</a> */}
+                <p id="contactEmail">LinkedIn</p>
             </div>
         </div>
     )

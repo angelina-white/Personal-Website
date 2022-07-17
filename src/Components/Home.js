@@ -17,7 +17,10 @@ function Home()
     //scrolls to lower page which will be projects
     function handleClickArrow(e)
     {
-        console.log("clikiey")
+        window.scrollTo({
+            top: 56,
+            behavior: 'smooth',
+        });
     }
 
     return (

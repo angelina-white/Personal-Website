@@ -187,6 +187,7 @@
     position: absolute;
     margin-top: 25px;
     margin-left: 25px;
+    border-radius: 8px;
 }
 
 .projHeader {
@@ -261,10 +262,15 @@
 
 #proj2Git {
     margin-left: 825px;
+    position: absolute;
+    margin-top: 420px;
+    margin-left: 825px;
 }
 
 #proj2Git2 {
-    margin-left: 1045px;
+    margin-left: 1035px;
+    position: absolute;
+    margin-top: 420px;
 }
 
 #comingSoon{

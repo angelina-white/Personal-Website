@@ -107,7 +107,7 @@ function Projects()
             <div id="projects">
                 <div id="proj1Back"></div>
                 <div id="proj1">
-                    <Carousel fade className="carousel">
+                    <Carousel fade className="carousel-dark carousel">
                         <Carousel.Item>
                             <img
                             className="d-block w-100"
@@ -150,19 +150,10 @@ function Projects()
 
                 <div id="proj2Back"></div>
                 <div id="proj2">
-                    <Carousel fade className="carousel">
-                        <Carousel.Item>
-                            <img
-                            className="d-block w-100"
-                            id="carPhoto"
-                            src={ p21 }
-                            alt="First slide"
-                            />
-                        </Carousel.Item>
-                    </Carousel>
-                    <h2 className="projHeader">Group Shopping List</h2>
-                    <h5 className="projDescription">Description goes here...</h5>
-                    <p className="projLang">Ruby, React, Sinatra, ActiveRecord, Javascript, CSS</p>
+                    <img src={ p21 } alt="contructionPhoto3" className="constructionPhoto" />
+                    <h2 id="projHeaderCon">Group Shopping List</h2>
+                    <h5 id="projDescriptionCon">Description goes here...</h5>
+                    <p id="projLangCon">Ruby, React, Sinatra, ActiveRecord, Javascript, CSS</p>
                     <p onClick={ openProj2Front } className="gitLinks" id="proj2Git" >GitHub - Frontend</p>
                     <p onClick={ openProj2Back } className="gitLinks" id="proj2Git2" >GitHub - Backend</p>
                 </div>

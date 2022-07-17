@@ -1,4 +1,9 @@
-import construction from '../construction.jpg';
+import construction from '../images/construction.jpg';
+import p11 from '../images/p11.png';
+import p12 from '../images/p12.png';
+import p13 from '../images/p13.png';
+import p14 from '../images/p14.png';
+import p21 from '../images/p21.png';
 import Carousel from 'react-bootstrap/Carousel';
 import { useEffect } from "react";
 import { gsap } from "gsap";
@@ -107,7 +112,7 @@ function Projects()
                             <img
                             className="d-block w-100"
                             id="carPhoto"
-                            src={ construction }
+                            src={ p11 }
                             alt="First slide"
                             />
                         </Carousel.Item>
@@ -115,7 +120,7 @@ function Projects()
                             <img
                             className="d-block w-100"
                             id="carPhoto"
-                            src={ construction }
+                            src={ p12 }
                             alt="Second slide"
                             />
                         </Carousel.Item>
@@ -123,7 +128,15 @@ function Projects()
                             <img
                             className="d-block w-100"
                             id="carPhoto"
-                            src={ construction }
+                            src={ p13 }
+                            alt="Third slide"
+                            />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img
+                            className="d-block w-100"
+                            id="carPhoto"
+                            src={ p14 }
                             alt="Third slide"
                             />
                         </Carousel.Item>
@@ -142,24 +155,8 @@ function Projects()
                             <img
                             className="d-block w-100"
                             id="carPhoto"
-                            src={ construction }
+                            src={ p21 }
                             alt="First slide"
-                            />
-                        </Carousel.Item>
-                        <Carousel.Item>
-                            <img
-                            className="d-block w-100"
-                            id="carPhoto"
-                            src={ construction }
-                            alt="Second slide"
-                            />
-                        </Carousel.Item>
-                        <Carousel.Item>
-                            <img
-                            className="d-block w-100"
-                            id="carPhoto"
-                            src={ construction }
-                            alt="Third slide"
                             />
                         </Carousel.Item>
                     </Carousel>

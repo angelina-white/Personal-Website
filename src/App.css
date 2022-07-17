@@ -106,7 +106,7 @@
 
 /* projects */
 #projectsContainer {
-    height: 161vh;
+    height: 261vh;
     width: 1440px;
     position: relative;
 }
@@ -116,124 +116,127 @@
 }
 
 #projects {
-    margin-left: 275px;
+    margin-left: 50px;
 }
 
 #proj1Back {
-    height: 300px;
-    width: 900px;
+    height: 475px;
+    width: 1340px;
     background-color: #BF8E84;
-    margin-top: 50px;
+    margin-top: 30px;
     border-radius: 8px;
     opacity: .25;
 }
 
 #proj2Back {
-    height: 300px;
-    width: 900px;
+    height: 475px;
+    width: 1340px;
     background-color: #BF8E84;
-    margin-top: 50px;
+    margin-top: 30px;
     border-radius: 8px;
     opacity: .50;
 }
 
 #proj3Back {
-    height: 300px;
-    width: 900px;
+    height: 475px;
+    width: 1340px;
     background-color: #BF8E84;
-    margin-top: 50px;
+    margin-top: 30px;
     border-radius: 8px;
     opacity: .75;
 }
 
 #proj1 {
-    height: 300px;
-    width: 900px;
+    height: 500px;
+    width: 1250px;
     position: absolute;
-    margin-top: -300px;
-}
-
-#proj2 {
-    height: 300px;
-    width: 900px;
-    position: absolute;
-    margin-top: -300px;
-}
-
-#proj3 {
-    height: 300px;
-    width: 900px;
-    position: absolute;
-    margin-top: -300px;
-}
-
-.carousel {
-    height: 250px;
-    width: 350px;
-    position: absolute;
-    margin-top: 25px;
+    margin-top: -425px;
     margin-left: 25px; 
 }
 
+#proj2 {
+    height: 500px;
+    width: 1250px;
+    position: absolute;
+    margin-top: -425px;
+    margin-left: 25px; 
+}
+
+#proj3 {
+    height: 500px;
+    width: 1250px;
+    position: absolute;
+    margin-top: -425px;
+    margin-left: 25px; 
+}
+
+.carousel {
+    height: 425px;
+    width: 775px;
+    position: absolute;
+    margin-top: -22px;
+    /* margin-left: 25px;  */
+}
+
 #carPhoto {
-    height: 250px;
-    width: 350px;
+    height: 425px;
+    width: 750px;
+    border-radius: 8px;
 }
 
 .constructionPhoto {
-    height: 250px;
-    width: 350px;
+    height: 425px;
+    width: 750px;
     position: absolute;
-    margin-top: 25px;
-    margin-left: 25px;
+    margin-top: -25px;
 }
 
 .projHeader {
     position: absolute;
-    margin-top: -255px;
-    margin-left: 425px;
+    margin-top: -425px;
+    margin-left: 850px;
     color: #401F19;
 }
 
 #projHeaderCon {
     position: absolute;
-    margin-top: 20px;
-    margin-left: 425px;
+    margin-top: -30px;
+    margin-left: 850px;
     color: #401F19;
 }
 
 .projDescription {
     position: absolute;
-    margin-top: -200px;
-    margin-left: 425px;
+    margin-top: -375px;
+    margin-left: 850px;
     color: #401F19;
 }
 
 #projDescriptionCon {
     position: absolute;
-    margin-top: 70px;
-    margin-left: 425px;
+    margin-top: 20px;
+    margin-left: 850px;
     color: #401F19;
 }
 
 .projLang {
     position: absolute;
-    margin-top: -65px;
-    margin-left: 425px;
+    margin-top: -150px;
+    margin-left: 850px;
     color: #401F19;
 }
 
 #projLangCon {
     position: absolute;
-    margin-top: 205px;
-    margin-left: 425px;
+    margin-top: 275px;
+    margin-left: 850px;
     color: #401F19;
 }
 
 .projLinks {
     position: absolute;
     margin-top: -25px;
-    margin-left: 425px;
+    margin-left: 850px;
     color: #401F19;
     font-size: 20px;
     text-decoration: underline;
@@ -247,7 +250,7 @@
 .gitLinks {
     position: absolute;
     margin-top: -25px;
-    margin-left: 500px;
+    margin-left: 930px;
     color: #401F19;
     font-size: 20px;
     text-decoration: underline;
@@ -259,18 +262,18 @@
 }
 
 #proj2Git {
-    margin-left: 425px;
+    margin-left: 850px;
 }
 
 #proj2Git2 {
-    margin-left: 605px;
+    margin-left: 1045px;
 }
 
 #comingSoon{
     text-decoration: none;
     position: absolute;
-    margin-top: 250px;
-    margin-left: 425px;
+    margin-top: 375px;
+    margin-left: 850px;
     color: #401F19;
 }
 

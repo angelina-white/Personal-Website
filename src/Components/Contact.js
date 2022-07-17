@@ -1,4 +1,4 @@
-import contactImage from '../contactImage.jpg';
+import contactImage from '../images/contactImage.jpg';
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useEffect } from "react";

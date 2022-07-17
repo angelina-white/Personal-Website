@@ -1,5 +1,5 @@
 import { AiOutlineArrowDown } from 'react-icons/ai';
-import homeImage from '../homeImage.jpg';
+import homeImage from '../images/homeImage.jpg';
 import { gsap } from "gsap";
 import { useEffect } from 'react';
 

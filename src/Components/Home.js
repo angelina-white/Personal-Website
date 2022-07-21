@@ -31,7 +31,7 @@ function Home()
                 </div>
                 <div id="nameContainer">
                     <h1 id="homeTitle">Angelina White</h1>
-                    <h2 id="homeTitle2">Software Developer</h2>
+                    <h2 id="homeTitle2">Software Engineer</h2>
                 </div>
                 <p id="homeArrow" onClick={ handleClickArrow }><AiOutlineArrowDown /></p>
             </div>

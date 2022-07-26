@@ -113,12 +113,12 @@
 
 /* projects */
 #projectsContainer {
-    height: 225vh;
+    height: 222vh;
     width: 1440px;
     position: relative;
 }
 #projectTitle {
-    margin-top: 35px;
+    margin-top: 75px;
     margin-left: 650px;
 }
 

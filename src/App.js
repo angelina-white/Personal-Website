@@ -21,14 +21,14 @@ function App() {
 
   function handleScrollProjects() {
     window.scrollTo({
-      top: 730,
+      top: 733,
       behavior: 'smooth',
   });
   }
 
   function handleScrollAbout() {
     window.scrollTo({
-      top: 2447,
+      top: 2440,
       behavior: 'smooth',
   });
   }

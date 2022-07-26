@@ -33,7 +33,7 @@ function Home()
                     <h1 id="homeTitle">Angelina White</h1>
                     <h2 id="homeTitle2">Software Engineer</h2>
                 </div>
-                <p id="homeArrow" onClick={ handleClickArrow }><AiOutlineArrowDown /></p>
+                {/* <p id="homeArrow" onClick={ handleClickArrow }><AiOutlineArrowDown /></p> */}
             </div>
         </div>
     )

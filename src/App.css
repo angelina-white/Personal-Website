@@ -50,12 +50,12 @@
 
 /* home */
 #homeContainer {
-    height: 93vh;
+    height: 679px;
     width: 1440px;
 }
 
 #homeImage {
-    height: 100vh;
+    height: 734px;
     width: 1440px;
     position: absolute;
 }
@@ -64,7 +64,7 @@
     position: absolute;
     color: white;
     margin-left: 500px;
-    margin-top: 215px;
+    margin-top: 213px;
 }
 
 .compWords {
@@ -238,49 +238,49 @@
     position: absolute;
     margin-top: 20px;
     margin-left: 825px;
-    /* color: #401F19; */
+    color: #401F19;
 }
 
 .projDescription {
     position: absolute;
     margin-top: -375px;
     margin-left: 825px;
-    /* color: #401F19; */
+    color: #401F19;
 }
 
 #projDescriptionCon {
     position: absolute;
     margin-top: 70px;
     margin-left: 825px;
-    /* color: #401F19; */
+    color: #401F19;
 }
 
 .projLang {
     position: absolute;
     margin-top: -125px;
     margin-left: 825px;
-    /* color: #401F19; */
+    color: #401F19;
 }
 
 #projLang2 {
     position: absolute;
     margin-top: 340px;
     margin-left: 830px;
-    /* color: #401F19; */
+    color: #401F19;
 }
 
 #projLangCon {
     position: absolute;
     margin-top: 310px;
     margin-left: 825px;
-    /* color: #401F19; */
+    color: #401F19;
 }
 
 .projLinks {
     position: absolute;
     margin-top: -35px;
     margin-left: 825px;
-    /* color: #401F19; */
+    color: #401F19;
     font-size: 20px;
     text-decoration: underline;
 }
@@ -294,7 +294,7 @@
     position: absolute;
     margin-top: -35px;
     margin-left: 915px;
-    /* color: #401F19; */
+    color: #401F19;
     font-size: 20px;
     text-decoration: underline;
 }
@@ -322,12 +322,12 @@
     position: absolute;
     margin-top: 420px;
     margin-left: 825px;
-    /* color: #401F19; */
+    color: #401F19;
 }
 
 #comingSoon:hover {
     cursor: default;
-    /* color: #401F19; */
+    color: #401F19;
 }
 
 /* about me */

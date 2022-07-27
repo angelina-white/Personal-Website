@@ -33,7 +33,7 @@ function Home()
         tl.from("#a20", {duration: .05, opacity: 0});
         tl.from("#a21", {duration: .05, opacity: 0});
         tl.from("#a22", {duration: .05, opacity: 0});
-        tl.from("#a23", {duration: .05, opacity: 0});
+        tl.from("#a23", {duration: .05, opacity: 0, delay: .4});
         tl.from("#a24", {duration: .05, opacity: 0});
         tl.from("#a25", {duration: .05, opacity: 0});
         tl.from("#a26", {duration: .05, opacity: 0});

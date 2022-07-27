@@ -6,8 +6,6 @@ function Home()
 {
     useEffect(() =>
     {
-        gsap.from("#homeImage", {duration: .5, opacity: 0});
-
         //computer text typing
         var tl = gsap.timeline({delay: .25});
         tl.from("#a1", {duration: .05, opacity: 0});

@@ -8,7 +8,7 @@
 #navbar {
     position: sticky;
     top: 0px;
-    background-color: #FFEADD;
+    background-color: #FFEFE0;
     opacity: .95;
     z-index: 1;
 }
@@ -77,7 +77,7 @@
 }
 
 .h {
-    color: #379CD8;
+    color: #58A0BD;
 }
 
 #space {
@@ -149,6 +149,7 @@
     margin-top: 75px;
     margin-left: 600px;
     font-family: "menlo";
+    color: #733122;
 }
 
 #projects {
@@ -158,28 +159,28 @@
 #proj1Back {
     height: 475px;
     width: 1340px;
-    background-color: #BF8E84;
+    background-color: #BF622C;
     margin-top: 30px;
     border-radius: 8px;
-    opacity: .25;
+    opacity: .20;
 }
 
 #proj2Back {
     height: 475px;
     width: 1340px;
-    background-color: #BF8E84;
+    background-color: #BF622C;
     margin-top: 30px;
     border-radius: 8px;
-    opacity: .50;
+    opacity: .40;
 }
 
 #proj3Back {
     height: 475px;
     width: 1340px;
-    background-color: #BF8E84;
+    background-color: #BF622C;
     margin-top: 30px;
     border-radius: 8px;
-    opacity: .75;
+    opacity: .60;
 }
 
 #proj1 {
@@ -237,49 +238,49 @@
     position: absolute;
     margin-top: 20px;
     margin-left: 825px;
-    color: #401F19;
+    /* color: #401F19; */
 }
 
 .projDescription {
     position: absolute;
     margin-top: -375px;
     margin-left: 825px;
-    color: #401F19;
+    /* color: #401F19; */
 }
 
 #projDescriptionCon {
     position: absolute;
     margin-top: 70px;
     margin-left: 825px;
-    color: #401F19;
+    /* color: #401F19; */
 }
 
 .projLang {
     position: absolute;
     margin-top: -125px;
     margin-left: 825px;
-    color: #401F19;
+    /* color: #401F19; */
 }
 
 #projLang2 {
     position: absolute;
     margin-top: 340px;
     margin-left: 830px;
-    color: #401F19;
+    /* color: #401F19; */
 }
 
 #projLangCon {
     position: absolute;
     margin-top: 310px;
     margin-left: 825px;
-    color: #401F19;
+    /* color: #401F19; */
 }
 
 .projLinks {
     position: absolute;
     margin-top: -35px;
     margin-left: 825px;
-    color: #401F19;
+    /* color: #401F19; */
     font-size: 20px;
     text-decoration: underline;
 }
@@ -293,7 +294,7 @@
     position: absolute;
     margin-top: -35px;
     margin-left: 915px;
-    color: #401F19;
+    /* color: #401F19; */
     font-size: 20px;
     text-decoration: underline;
 }
@@ -321,12 +322,12 @@
     position: absolute;
     margin-top: 420px;
     margin-left: 825px;
-    color: #401F19;
+    /* color: #401F19; */
 }
 
 #comingSoon:hover {
     cursor: default;
-    color: #401F19;
+    /* color: #401F19; */
 }
 
 /* about me */

@@ -59,18 +59,6 @@ function Home()
         tl.from("#a47", {duration: .05, opacity: 0});
     }, [])
 
-    //scrolls to lower page which will be projects
-    function handleClickArrow(e)
-    {
-        window.scrollTo({
-            top: 56,
-            behavior: 'smooth',
-        });
-    }
-
-    const title = `<h1>Angelina White</h1>`
-    const msg = `<h3>Software Engineer</h3>`
-
     const leftBrack = `<`
     const rightBrack = `>`
 

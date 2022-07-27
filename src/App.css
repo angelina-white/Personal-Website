@@ -60,6 +60,34 @@
     position: absolute;
 }
 
+#compWordsCont {
+    position: absolute;
+    color: white;
+    margin-left: 500px;
+    margin-top: 215px;
+}
+
+.compWords {
+    float: left;
+    font-family: "menlo";
+}
+
+.brackets {
+    color: #5C5C5C;
+}
+
+.h {
+    color: #379CD8;
+}
+
+#space {
+    width: 12px;
+}
+
+#space2 {
+    width: 10px;
+}
+
 #homeElements {
     position: absolute;
     color: white;
@@ -119,7 +147,8 @@
 }
 #projectTitle {
     margin-top: 75px;
-    margin-left: 650px;
+    margin-left: 600px;
+    font-family: "menlo";
 }
 
 #projects {
@@ -304,7 +333,7 @@
 #aboutMeContainer {
     height: 100vh;
     width: 1440px;
-    font-family: "Monaco";
+    font-family: "menlo";
 }
 
 #aboutBackground {
@@ -339,7 +368,7 @@
     width: 1125px;
     padding-top:15px;
     margin-top: 275px;
-    margin-left: 163px;
+    margin-left: 160px;
 }
 
 #aboutDescIntro {

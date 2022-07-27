@@ -172,7 +172,7 @@ function Projects()
                     <img src={ construction } alt="contructionPhoto3" className="constructionPhoto" />
                     <h2 id="projHeaderCon">Travel Planner</h2>
                     <p id="projDescriptionCon">Currently working on...</p>
-                    <h5 id="projLangCon">Ruby on Rails, React, ActiveRecord, ActiveMailer, Socket.io, Redux, BCrypt, Javascript, CSS</h5>
+                    <h5 id="projLangCon">Ruby on Rails, React, ActiveRecord, ActiveMailer, Socket.io, BCrypt, Javascript, CSS</h5>
                     <p id="comingSoon">Demo coming soon</p>
                 </div>
             </div>

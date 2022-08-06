@@ -91,85 +91,6 @@
     font-size: 50px;
 }
 
-/* #compWordsCont {
-    position: absolute;
-    color: white;
-    margin-left: 500px;
-    margin-top: 213px;
-}
-
-.compWords {
-    float: left;
-    font-family: "menlo";
-}
-
-.brackets {
-    color: #5C5C5C;
-}
-
-.h {
-    color: #58A0BD;
-}
-
-#space {
-    width: 12px;
-}
-
-#space2 {
-    width: 10px;
-}
-
-#homeElements {
-    position: absolute;
-    color: white;
-    margin-top: 450px;
-    margin-left: 85px;
-}
-
-#nameBackground {
-    background-color: #FFEADD;
-    width: 800px;
-    height: 200px;
-    border-radius: 175px;
-    opacity: .80;
-    position: absolute;
-}
-
-#nameContainer {
-    width: 850px;
-    padding-left: 70px;
-    padding-top: 10px;
-}
-
-#homeTitle {
-    font-size: 100px;
-    font-family: "Snell Roundhand";
-    position: absolute;
-    font-weight: bold;
-}
-
-#homeTitle2 {
-    font-size: 40px;
-    position: absolute;
-    font-weight: bold;
-    margin-top: 125px;
-    margin-left: 25px;
-    font-family: "Monaco";
-}
-
-#homeArrow {
-    margin-left: 400px;
-    margin-top: 200px;
-    font-size: 30px;
-}
-
-#homeArrow:hover {
-    font-size: 35px;
-    margin-left: 397.5px;
-    margin-top: 195.5px;
-} */
-
-
 /* projects */
 #projectsContainer {
     height: 360vh;
@@ -403,9 +324,7 @@
 #aboutBackground {
     height: 100vh;
     width: 1440px;
-    /* background-color: #F2E7DC; */
     position: absolute;
-    /* opacity: .20; */
 }
 
 #aboutTitle {
@@ -417,7 +336,6 @@
 }
 
 #aboutInfoBack {
-    /* background-color: white; */
     background-color: #F2E7DC;
     opacity: .20;
     position: absolute;
@@ -426,7 +344,6 @@
     margin-top: 185px;
     margin-left: 120px;
     border-radius: 8px;
-    /* opacity: .5; */
 }
 
 #aboutTextCont {
@@ -439,23 +356,17 @@
 
 #aboutDescIntro {
     position: absolute;
-    /* margin-left: 300px;
-    margin-top: 275px; */
     color: #695443;
 }
 
 #aboutDesc {
     position: absolute;
-    /* margin-left: 300px;
-    margin-top: 340px; */
     margin-top: 60px;
     color: #695443;
 }
 
 #aboutDesc2 {
     position: absolute;
-    /* margin-left: 300px;
-    margin-top: 340px; */
     margin-top: 260px;
     color: #695443;
 }

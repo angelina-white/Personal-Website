@@ -8,22 +8,22 @@
 #navbar {
     position: sticky;
     top: 0px;
-    background-color: #FFEFE0;
+    background-color: #F2E7DC;
     opacity: .95;
     z-index: 1;
 }
 
 #navHeader {
-    color: #947248;
+    color: #8C715A;
 }
 
 #navLinks {
-    color: #8C7354;
+    color: #8C715A;
     width: 90px;
 }
 
 #projectNav {
-    color: #8C7354;
+    color: #8C715A;
     width: 90px;
     margin-left: 10px;
 }
@@ -60,7 +60,20 @@
     position: absolute;
 }
 
-#compWordsCont {
+#titleCont {
+    position: absolute;
+    font-family: "menlo";
+    text-align: center;
+    margin-left: 150px;
+    margin-top: 275px;
+    color: #A68A72;
+}
+
+#title {
+    font-size: 50px;
+}
+
+/* #compWordsCont {
     position: absolute;
     color: white;
     margin-left: 500px;
@@ -136,7 +149,7 @@
     font-size: 35px;
     margin-left: 397.5px;
     margin-top: 195.5px;
-}
+} */
 
 
 /* projects */

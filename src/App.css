@@ -173,7 +173,7 @@
 
 /* projects */
 #projectsContainer {
-    height: 222vh;
+    height: 300vh;
     width: 1440px;
     position: relative;
 }
@@ -194,7 +194,7 @@
     background-color: #F2A35E;
     margin-top: 30px;
     border-radius: 8px;
-    opacity: .15;
+    opacity: .1;
 }
 
 #proj2Back {
@@ -203,7 +203,7 @@
     background-color: #F2A35E;
     margin-top: 30px;
     border-radius: 8px;
-    opacity: .30;
+    opacity: .20;
 }
 
 #proj3Back {
@@ -212,7 +212,16 @@
     background-color: #F2A35E;
     margin-top: 30px;
     border-radius: 8px;
-    opacity: .45;
+    opacity: .3;
+}
+
+#proj4Back {
+    height: 475px;
+    width: 1340px;
+    background-color: #F2A35E;
+    margin-top: 30px;
+    border-radius: 8px;
+    opacity: .4;
 }
 
 #proj1 {
@@ -230,6 +239,13 @@
 }
 
 #proj3 {
+    height: 475px;
+    width: 1300px;
+    position: absolute;
+    margin-top: -474px;
+}
+
+#proj4 {
     height: 475px;
     width: 1300px;
     position: absolute;

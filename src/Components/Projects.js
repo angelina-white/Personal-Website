@@ -15,6 +15,11 @@ import tp8 from '../images/tp8.png';
 import tp9 from '../images/tp9.png';
 import tp10 from '../images/tp10.png';
 import tp11 from '../images/tp11.png';
+import mg1 from '../images/mg1.png';
+import mg2 from '../images/mg2.png';
+import mg3 from '../images/mg3.png';
+import mg4 from '../images/mg4.png';
+import mg5 from '../images/mg5.png';
 import Carousel from 'react-bootstrap/Carousel';
 import { useEffect } from "react";
 import { gsap } from "gsap";
@@ -89,6 +94,27 @@ function Projects()
             }, x: -200, opacity: 0
         })
 
+        gsap.from("#proj4Back", 
+        {
+            scrollTrigger:
+            {
+               trigger: "#proj4Back",
+               start: "top 725px",
+               end: "bottom 900px",
+               scrub: true,
+            }, x: -200, opacity: 0
+        })
+        gsap.from("#proj4", 
+        {
+            scrollTrigger:
+            {
+               trigger: "#proj4",
+               start: "top 725px",
+               end: "bottom 900px",
+               scrub: true,
+            }, x: -200, opacity: 0
+        })
+
     }, [])
 
 
@@ -110,6 +136,11 @@ function Projects()
     const openProj2Back = () => 
     {
         window.open("https://github.com/angelina-white/Group-Shopping-List-Backend");
+    };
+
+    const openProj4 = () => 
+    {
+        window.open("https://github.com/angelina-white/Character-Display");
     };
 
     return (
@@ -148,7 +179,7 @@ function Projects()
                             className="d-block w-100"
                             id="carPhoto"
                             src={ tp4 }
-                            alt="Third slide"
+                            alt="Fourth slide"
                             />
                         </Carousel.Item>
                         <Carousel.Item>
@@ -156,7 +187,7 @@ function Projects()
                             className="d-block w-100"
                             id="carPhoto"
                             src={ tp5 }
-                            alt="Third slide"
+                            alt="Fifth slide"
                             />
                         </Carousel.Item>
                         <Carousel.Item>
@@ -164,7 +195,7 @@ function Projects()
                             className="d-block w-100"
                             id="carPhoto"
                             src={ tp6 }
-                            alt="Third slide"
+                            alt="Sixth slide"
                             />
                         </Carousel.Item>
                         <Carousel.Item>
@@ -172,7 +203,7 @@ function Projects()
                             className="d-block w-100"
                             id="carPhoto"
                             src={ tp7 }
-                            alt="Third slide"
+                            alt="Seventh slide"
                             />
                         </Carousel.Item>
                         <Carousel.Item>
@@ -180,7 +211,7 @@ function Projects()
                             className="d-block w-100"
                             id="carPhoto"
                             src={ tp8 }
-                            alt="Third slide"
+                            alt="Eigth slide"
                             />
                         </Carousel.Item>
                         <Carousel.Item>
@@ -188,7 +219,7 @@ function Projects()
                             className="d-block w-100"
                             id="carPhoto"
                             src={ tp9 }
-                            alt="Third slide"
+                            alt="Ninth slide"
                             />
                         </Carousel.Item>
                         <Carousel.Item>
@@ -196,7 +227,7 @@ function Projects()
                             className="d-block w-100"
                             id="carPhoto"
                             src={ tp10 }
-                            alt="Third slide"
+                            alt="Tenth slide"
                             />
                         </Carousel.Item>
                         <Carousel.Item>
@@ -204,7 +235,7 @@ function Projects()
                             className="d-block w-100"
                             id="carPhoto"
                             src={ tp11 }
-                            alt="Third slide"
+                            alt="Eleventh slide"
                             />
                         </Carousel.Item>
                     </Carousel>
@@ -216,48 +247,48 @@ function Projects()
 
                 <div id="proj2Back"></div>
                 <div id="proj2">
-                <Carousel fade className="carousel-dark carousel">
-                        <Carousel.Item>
-                            <img
-                            className="d-block w-100"
-                            id="carPhoto"
-                            src={ p11 }
-                            alt="First slide"
-                            />
-                        </Carousel.Item>
-                        <Carousel.Item>
-                            <img
-                            className="d-block w-100"
-                            id="carPhoto"
-                            src={ p12 }
-                            alt="Second slide"
-                            />
-                        </Carousel.Item>
-                        <Carousel.Item>
-                            <img
-                            className="d-block w-100"
-                            id="carPhoto"
-                            src={ p13 }
-                            alt="Third slide"
-                            />
-                        </Carousel.Item>
-                        <Carousel.Item>
-                            <img
-                            className="d-block w-100"
-                            id="carPhoto"
-                            src={ p14 }
-                            alt="Third slide"
-                            />
-                        </Carousel.Item>
-                        <Carousel.Item>
-                            <img
-                            className="d-block w-100"
-                            id="carPhoto"
-                            src={ p15 }
-                            alt="Third slide"
-                            />
-                        </Carousel.Item>
-                    </Carousel>
+                    <Carousel fade className="carousel-dark carousel">
+                            <Carousel.Item>
+                                <img
+                                className="d-block w-100"
+                                id="carPhoto"
+                                src={ p11 }
+                                alt="First slide"
+                                />
+                            </Carousel.Item>
+                            <Carousel.Item>
+                                <img
+                                className="d-block w-100"
+                                id="carPhoto"
+                                src={ p12 }
+                                alt="Second slide"
+                                />
+                            </Carousel.Item>
+                            <Carousel.Item>
+                                <img
+                                className="d-block w-100"
+                                id="carPhoto"
+                                src={ p13 }
+                                alt="Third slide"
+                                />
+                            </Carousel.Item>
+                            <Carousel.Item>
+                                <img
+                                className="d-block w-100"
+                                id="carPhoto"
+                                src={ p14 }
+                                alt="Fourth slide"
+                                />
+                            </Carousel.Item>
+                            <Carousel.Item>
+                                <img
+                                className="d-block w-100"
+                                id="carPhoto"
+                                src={ p15 }
+                                alt="Fifth slide"
+                                />
+                            </Carousel.Item>
+                        </Carousel>
                     <h2 className="projHeader">Job Application Tracker</h2>
                     <p className="projDescription">Track job applications, interviews, and offers. Add, edit, and delete jobs you applied for. Add interviews and offers to selected jobs. View calendar to see when interviews are. Compare offers. Check the stats for how many applications you applied for and how many of each application status there is.</p>
                     <h5 className="projLang">React, Javascript, Ruby on Rails, ActiveRecord, BCrypt, CSS</h5>
@@ -267,12 +298,62 @@ function Projects()
 
                 <div id="proj3Back"></div>
                 <div id="proj3">
-                <img src={ p21 } alt="contructionPhoto3" className="constructionPhoto" />
+                    <img src={ p21 } alt="contructionPhoto3" className="constructionPhoto" />
                     <h2 id="projHeaderCon">Group Shopping List</h2>
                     <p id="projDescriptionCon">A shopping list for multiple people that shows how much of each item a person is getting and how much it will cost. Can be used when one person in the group has a membership like with Costco. Great for roommates, work, parties, and other communities.</p>
                     <h5 id="projLang2">React,Javascript, Ruby, Sinatra, ActiveRecord, CSS</h5>
                     <p onClick={ openProj2Front } className="gitLinks" id="proj2Git" >GitHub - Frontend</p>
                     <p onClick={ openProj2Back } className="gitLinks" id="proj2Git2" >GitHub - Backend</p>
+                </div>
+
+                <div id="proj4Back"></div>
+                <div id="proj4">
+                    <Carousel fade className="carousel-dark carousel">
+                        <Carousel.Item>
+                            <img
+                            className="d-block w-100"
+                            id="carPhoto"
+                            src={ mg1 }
+                            alt="First slide"
+                            />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img
+                            className="d-block w-100"
+                            id="carPhoto"
+                            src={ mg2 }
+                            alt="Second slide"
+                            />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img
+                            className="d-block w-100"
+                            id="carPhoto"
+                            src={ mg3 }
+                            alt="Third slide"
+                            />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img
+                            className="d-block w-100"
+                            id="carPhoto"
+                            src={ mg4 }
+                            alt="Fourth slide"
+                            />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img
+                            className="d-block w-100"
+                            id="carPhoto"
+                            src={ mg5 }
+                            alt="Fifth slide"
+                            />
+                        </Carousel.Item>
+                    </Carousel>
+                    <h2 className="projHeader">Movie Character Display</h2>
+                    <p className="projDescription">Displays a list of movie characters. User can add or remove characters to the database. User can search for characters and favorite characters.</p>
+                    <h5 className="projLang">React, Javascript, CSS</h5>
+                    <p onClick={ openProj4 } className="projLinks">GitHub</p>
                 </div>
             </div>
         </div>

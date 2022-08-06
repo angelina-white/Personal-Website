@@ -10,6 +10,7 @@ import { AiFillGithub } from 'react-icons/ai';
 import { FaLinkedin } from 'react-icons/fa';
 import { FaDev } from 'react-icons/fa';
 
+
 function App() {
 
   function handleScrollHome() {

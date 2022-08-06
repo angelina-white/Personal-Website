@@ -4,6 +4,13 @@
     font-size: 50px;
 }
 
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+  .fade-in-image { animation: fadeIn 2s; }
+
 /* navbar */
 #navbar {
     position: sticky;
@@ -17,15 +24,27 @@
     color: #8C715A;
 }
 
+#navHeader:hover {
+    color: #695443;
+}
+
 #navLinks {
     color: #8C715A;
     width: 90px;
+}
+
+#navLinks:hover {
+    color: #695443;
 }
 
 #projectNav {
     color: #8C715A;
     width: 90px;
     margin-left: 10px;
+}
+
+#projectNav:hover {
+    color: #695443;
 }
 
 #nav {
@@ -160,9 +179,9 @@
 }
 #projectTitle {
     margin-top: 75px;
-    margin-left: 600px;
+    margin-left: 375px;
     font-family: "menlo";
-    color: #733122;
+    color: #695443;
 }
 
 #projects {
@@ -172,28 +191,28 @@
 #proj1Back {
     height: 475px;
     width: 1340px;
-    background-color: #BF622C;
+    background-color: #F2A35E;
     margin-top: 30px;
     border-radius: 8px;
-    opacity: .20;
+    opacity: .15;
 }
 
 #proj2Back {
     height: 475px;
     width: 1340px;
-    background-color: #BF622C;
+    background-color: #F2A35E;
     margin-top: 30px;
     border-radius: 8px;
-    opacity: .40;
+    opacity: .30;
 }
 
 #proj3Back {
     height: 475px;
     width: 1340px;
-    background-color: #BF622C;
+    background-color: #F2A35E;
     margin-top: 30px;
     border-radius: 8px;
-    opacity: .60;
+    opacity: .45;
 }
 
 #proj1 {
@@ -244,58 +263,58 @@
     position: absolute;
     margin-top: -425px;
     margin-left: 825px;
-    color: #401F19;
+    color: #695443;
 }
 
 #projHeaderCon {
     position: absolute;
     margin-top: 20px;
     margin-left: 825px;
-    color: #401F19;
+    color: #695443;
 }
 
 .projDescription {
     position: absolute;
     margin-top: -375px;
     margin-left: 825px;
-    color: #401F19;
+    color: #695443;
 }
 
 #projDescriptionCon {
     position: absolute;
     margin-top: 70px;
     margin-left: 825px;
-    color: #401F19;
+    color: #695443;
 }
 
 .projLang {
     position: absolute;
-    margin-top: -125px;
+    margin-top: -110px;
     margin-left: 825px;
-    color: #401F19;
+    color: #695443;
 }
 
 #projLang2 {
     position: absolute;
     margin-top: 340px;
     margin-left: 830px;
-    color: #401F19;
+    color: #695443;
 }
 
 #projLangCon {
     position: absolute;
     margin-top: 310px;
     margin-left: 825px;
-    color: #401F19;
+    color: #695443;
 }
 
 .projLinks {
     position: absolute;
     margin-top: -35px;
     margin-left: 825px;
-    color: #401F19;
     font-size: 20px;
     text-decoration: underline;
+    color: #695443;
 }
 
 .projLinks:hover {
@@ -307,9 +326,9 @@
     position: absolute;
     margin-top: -35px;
     margin-left: 915px;
-    color: #401F19;
     font-size: 20px;
     text-decoration: underline;
+    color: #695443;
 }
 
 .gitLinks:hover {
@@ -322,25 +341,24 @@
     position: absolute;
     margin-top: 420px;
     margin-left: 825px;
+    color: #695443;
+}
+
+#proj2Git:hover {
+    color: #386D73;
+    cursor: pointer;
 }
 
 #proj2Git2 {
     margin-left: 1015px;
     position: absolute;
     margin-top: 420px;
+    color: #695443;
 }
 
-#comingSoon{
-    text-decoration: none;
-    position: absolute;
-    margin-top: 420px;
-    margin-left: 825px;
-    color: #401F19;
-}
-
-#comingSoon:hover {
-    cursor: default;
-    color: #401F19;
+#proj2Git2:hover {
+    color: #386D73;
+    cursor: pointer;
 }
 
 /* about me */
@@ -353,16 +371,16 @@
 #aboutBackground {
     height: 100vh;
     width: 1440px;
-    background-color: #D9CCC1;
+    background-color: #F2E7DC;
     position: absolute;
-    opacity: .15;
+    opacity: .20;
 }
 
 #aboutTitle {
     position: absolute;
     margin-left: 600px;
     margin-top: 85px;
-    color: #8C715A;
+    color: #695443;
     font-size: 50px;
 }
 
@@ -389,7 +407,7 @@
     position: absolute;
     /* margin-left: 300px;
     margin-top: 275px; */
-    color: #8C715A;
+    color: #695443;
 }
 
 #aboutDesc {
@@ -397,7 +415,7 @@
     /* margin-left: 300px;
     margin-top: 340px; */
     margin-top: 60px;
-    color: #8C715A;
+    color: #695443;
 }
 
 #aboutDesc2 {
@@ -405,7 +423,7 @@
     /* margin-left: 300px;
     margin-top: 340px; */
     margin-top: 260px;
-    color: #8C715A;
+    color: #695443;
 }
 
 /* contact */

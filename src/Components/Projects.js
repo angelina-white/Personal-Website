@@ -20,6 +20,8 @@ import mg2 from '../images/mg2.png';
 import mg3 from '../images/mg3.png';
 import mg4 from '../images/mg4.png';
 import mg5 from '../images/mg5.png';
+import er1 from '../images/er1.png';
+import er2 from '../images/er2.png';
 import Carousel from 'react-bootstrap/Carousel';
 import { useEffect } from "react";
 import { gsap } from "gsap";
@@ -115,6 +117,27 @@ function Projects()
             }, x: -200, opacity: 0
         })
 
+        gsap.from("#proj5Back", 
+        {
+            scrollTrigger:
+            {
+               trigger: "#proj5Back",
+               start: "top 725px",
+               end: "bottom 900px",
+               scrub: true,
+            }, x: -200, opacity: 0
+        })
+        gsap.from("#proj5", 
+        {
+            scrollTrigger:
+            {
+               trigger: "#proj5",
+               start: "top 725px",
+               end: "bottom 900px",
+               scrub: true,
+            }, x: -200, opacity: 0
+        })
+
     }, [])
 
 
@@ -141,6 +164,11 @@ function Projects()
     const openProj4 = () => 
     {
         window.open("https://github.com/angelina-white/Character-Display");
+    };
+
+    const openProj5 = () => 
+    {
+        window.open("https://github.com/angelina-white/Exchange-Rate-Calculator");
     };
 
     return (
@@ -354,6 +382,32 @@ function Projects()
                     <p className="projDescription">Displays a list of movie characters. User can add or remove characters to the database. User can search for characters and favorite characters.</p>
                     <h5 className="projLang">React, Javascript, CSS</h5>
                     <p onClick={ openProj4 } className="projLinks">GitHub</p>
+                </div>
+
+                <div id="proj5Back"></div>
+                <div id="proj5">
+                    <Carousel fade className="carousel-dark carousel">
+                        <Carousel.Item>
+                            <img
+                            className="d-block w-100"
+                            id="carPhoto"
+                            src={ er1 }
+                            alt="First slide"
+                            />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img
+                            className="d-block w-100"
+                            id="carPhoto"
+                            src={ er2 }
+                            alt="Second slide"
+                            />
+                        </Carousel.Item>
+                    </Carousel>
+                    <h2 className="projHeader">Exchange Rate Calculator</h2>
+                    <p className="projDescription">User can choose the currency, search for a currency, and convert from euros to the chosen currency.</p>
+                    <h5 className="projLang">Javascript, HTML, CSS</h5>
+                    <p onClick={ openProj5 } className="projLinks">GitHub</p>
                 </div>
             </div>
         </div>

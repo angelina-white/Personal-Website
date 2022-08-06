@@ -173,7 +173,7 @@
 
 /* projects */
 #projectsContainer {
-    height: 300vh;
+    height: 360vh;
     width: 1440px;
     position: relative;
 }
@@ -224,6 +224,15 @@
     opacity: .4;
 }
 
+#proj5Back {
+    height: 475px;
+    width: 1340px;
+    background-color: #F2A35E;
+    margin-top: 30px;
+    border-radius: 8px;
+    opacity: .5;
+}
+
 #proj1 {
     height: 475px;
     width: 1300px;
@@ -246,6 +255,13 @@
 }
 
 #proj4 {
+    height: 475px;
+    width: 1300px;
+    position: absolute;
+    margin-top: -474px;
+}
+
+#proj5 {
     height: 475px;
     width: 1300px;
     position: absolute;

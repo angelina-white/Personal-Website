@@ -1,6 +1,7 @@
 import './App.css';
 import Home from "./Components/Home";
 import Projects from "./Components/Projects";
+import PersonalProjects from "./Components/PersonalProjects";
 import AboutMe from "./Components/AboutMe";
 import Contact from "./Components/Contact";
 import Container from 'react-bootstrap/Container';
@@ -78,6 +79,7 @@ function App() {
       </Navbar>
 
       <Projects />
+      <PersonalProjects />
       <AboutMe />
       <Contact />
     </div>

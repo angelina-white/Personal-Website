@@ -8,7 +8,7 @@
     100% { opacity: 1; }
   }
 
-  .fade-in-image { animation: fadeIn 2s; }
+.fade-in-image { animation: fadeIn 2s; }
 
 /* navbar */
 #navbar {
@@ -534,6 +534,7 @@
     position: absolute;
     margin-top: 35px;
     margin-left: 340px;
+    z-index: 0;
 }
 
 #persProj1Cont {

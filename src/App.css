@@ -13,8 +13,8 @@
 /* navbar */
 #navbar {
     position: sticky;
-    top: 0px;
     background-color: #F2E7DC;
+    top: 0px;
     opacity: .95;
     z-index: 1;
 }
@@ -68,13 +68,13 @@
 
 /* home */
 #homeContainer {
-    height: 679px;
-    width: 1440px;
+    height: 678px;
+    width: 100%;
 }
 
 #homeImage {
     height: 734px;
-    width: 1440px;
+    width: 100%;
     position: absolute;
 }
 
@@ -173,9 +173,10 @@
 /* projects */
 #projectsContainer {
     height: 360vh;
-    width: 1440px;
+    width: 100%;
     position: relative;
 }
+
 #projectTitle {
     margin-top: 75px;
     margin-left: 375px;
@@ -395,7 +396,7 @@
 /* about me */
 #aboutMeContainer {
     height: 100vh;
-    width: 1440px;
+    width: 100%;
     font-family: "menlo";
 }
 
@@ -517,7 +518,7 @@
 
 /* personal projects */
 #personalProjCont {
-    height: 100vh;
+    height: 175vh;
     background-color: #FCF9F5;
     padding-top: 25px;
     text-align: center;
@@ -541,11 +542,10 @@
     height: 100px;
     width: 775px;
     margin-left: 340px;
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
-    border-left: 2px solid black;
-    border-right: 2px solid black;
-    margin-top: -5px;
+    border-bottom: 2px solid #695443;
+    border-left: 2px solid #695443;
+    border-right: 2px solid #695443;
+    margin-top: -7px;
     background-color: white;
     border-radius: 8px;
 }
@@ -559,6 +559,7 @@
     position: absolute;
     margin-top: -77px;
     margin-left: 350px;
+    color: #695443;
 }
 
 #persLang {
@@ -566,6 +567,7 @@
     margin-top: -42px;
     margin-left: 350px;
     float: left;
+    color: #695443;
 }
 
 #persGit {
@@ -573,9 +575,14 @@
     margin-top: -42px;
     margin-left: 1025px;
     text-decoration: underline;
+    color: #695443;
 }
 
 #persGit:hover {
     color: #386D73;
     cursor: pointer;
+}
+
+#persProj2 {
+    margin-top: 50px;
 }

@@ -8,7 +8,8 @@ function AboutMe()
             <h1 className="header" id="aboutTitle">About Me</h1>
             <div id="aboutTextCont">
                 <h3 id="aboutDescIntro">Hi! I'm Angelina.</h3>
-                <h3 id="aboutDesc">I've always had an interest in tech, minoring in Computer Science and working in the IT department at my school. I decided to take a leap and am now in the software engineering program at the coding bootcamp, Flatiron School. My last day is Aug. 5, and I am currently looking for a position as a software developer. While my skills are in both frontend and backend programming, my passion lies with frontend development, where I am able to work more creatively. </h3>
+                <h3 id="aboutDesc">I've always had an interest in tech, minoring in Computer Science and working in the IT department at my school. I just completed a coding bootcamp for software engineering and am searching for a new job as a full stack developer or front end developer.</h3>
+                <h3 id="aboutDesc2">All my jobs have been customer/client facing positions, which has allowed me to advance my communication skills, particularly in the technical field. I am able to articulate technical specifications to different types of people at different levels of understanding, which helps when working in diverse teams of varying roles and clients from different backgrounds.</h3>
             </div>
         </div>
     )

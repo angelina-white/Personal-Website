@@ -29,7 +29,7 @@ function App() {
 
   function handleScrollAbout() {
     window.scrollTo({
-      top: 2428,
+      top: 3440,
       behavior: 'smooth',
   });
   }
